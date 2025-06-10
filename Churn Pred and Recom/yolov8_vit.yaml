@@ -1,0 +1,11 @@
+
+# Ultralytics YOLO config with ViT backbone
+nc: 8  # number of classes
+scales: 
+  vit: 
+    depth_multiple: 1.0
+    width_multiple: 1.0
+    backbone:
+      - [-1, 1, ViTBackbone, {'model_name': 'vit_base_patch16_224'}]  # ViT backbone
+    head:
+      - [-1, 1, Detect, [nc]]  # Official YOLO Detect head

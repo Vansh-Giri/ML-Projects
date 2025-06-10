@@ -1,0 +1,15 @@
+Model,Accuracy,Best Params,Model Object
+SVM,0.9987266553480475,"{'C': 10, 'kernel': 'rbf'}","SVC(C=10, probability=True, random_state=42)"
+XGBoost,0.9923599320882852,"{'max_depth': 5, 'n_estimators': 200}","XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              feature_weights=None, gamma=None, grow_policy=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=None, max_bin=None, max_cat_threshold=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=5,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, multi_strategy=None, n_estimators=200,
+              n_jobs=None, num_parallel_tree=None, ...)"
+GradientBoosting,0.9796264855687606,"{'learning_rate': 0.1, 'n_estimators': 200}","GradientBoostingClassifier(n_estimators=200, random_state=42)"
+MLP,0.9949066213921901,"{'alpha': 0.0001, 'hidden_layer_sizes': (100, 50)}","MLPClassifier(hidden_layer_sizes=(100, 50), random_state=42)"
